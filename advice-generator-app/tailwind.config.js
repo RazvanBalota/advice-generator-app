@@ -10,9 +10,6 @@ export default {
         darkGrayBlue: "hsl(217, 19%, 24%)",
         darkBlue: "hsl(218, 23%, 16%)",
       },
-      boxShadow: {
-        xl22: "box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px",
-      },
     },
   },
   plugins: [],
