@@ -21,7 +21,7 @@ function App() {
       <div className="relative bg-darkGrayBlue w-[400px] h-[400px] lg:w-[450px] lg:h-[300px] rounded-3xl flex flex-col items-center px-6 ">
         <span className=" text-primaryNeon text-sm uppercase tracking-widest pt-10 max-h-20 ">Advice #{advice.id}</span>
         <p className="text-primaryLight text-xl tracking-wider text-center pt-6 max-h-48 lg:max-h-36">
-          "{advice.advice}"
+          {advice.advice}
         </p>
         <img src={pattern} alt="pattern" />
         <button
